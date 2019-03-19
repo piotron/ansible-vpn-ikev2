@@ -10,4 +10,4 @@
   fail:
     msg: "Unsupported OS release"
   when:
-    ansible_distribution_release != "xenial" and ansible_distribution_release != "jessie" 
+    ansible_distribution_release != "xenial" and ansible_distribution_release != "jessie" and ansible_distribution_release != "bionic"
